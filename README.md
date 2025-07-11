@@ -4,6 +4,7 @@ This data contains a large set of Amazon product reviews collected in 2019-2020.
 This data can be used to study the characteristics (linguistics or otherwise) of fake vs real reviews and to assess proposed fake review detection methods.
 
 Data can be downloaded from either:
+
 https://bretthollenbeckcom.wordpress.com/wp-content/uploads/2025/07/public_reviews_dataset.json_.zip
 https://bretthollenbeckcom.wordpress.com/wp-content/uploads/2025/07/public_reviews_dataset.csv_.zip
 
