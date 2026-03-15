@@ -7,10 +7,10 @@ This data can be used to study the characteristics (linguistics or otherwise) of
 
 Data can be downloaded from either:
 
-https://bretthollenbeckcom.wordpress.com/wp-content/uploads/2025/07/public_reviews_dataset.json_.zip
-https://bretthollenbeckcom.wordpress.com/wp-content/uploads/2025/07/public_reviews_dataset.csv_.zip
+https://bretthollenbeckcom.wordpress.com/wp-content/uploads/2026/03/public_reviews_dataset_cleaned.csv_.zip
+https://bretthollenbeckcom.wordpress.com/wp-content/uploads/2026/03/public_reviews_dataset_cleaned.json_.zip
 
-The file public_reviews_data.csv contains the following variables:
+The file public_reviews_data_cleaned.csv contains the following variables:
 
 fake_review_campaign_start_date: taken from He et al (2022a), this measures the first observed Facebook post by the seller recruiting fake reviews. It is an imperfect measure of the beginning of a fake review campaign that can contribute to the ground truth of what reviews are real/fake, since a review posted before this date is less likely to be fake.
 
