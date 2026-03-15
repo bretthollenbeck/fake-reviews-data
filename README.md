@@ -1,4 +1,6 @@
 # fake-reviews-data
+***Updated March 2026 - see below for details ***
+
 This data contains a large set of Amazon product reviews collected in 2019-2020. Using a combination of direct evidence and classification, individual reviews are labeled as "fake" or not, where fake in this case means the reviewer was recruited and paid by the seller to purchase the product and write a positive review. More details on the nature of fake review transactions are detailed in He et al (2022a). 
 
 This data can be used to study the characteristics (linguistics or otherwise) of fake vs real reviews and to assess proposed fake review detection methods.
@@ -23,6 +25,11 @@ Reviewer_label: This labels reviewers as real/fake using pre-specified rules as 
 Deleted_by_amazon: Uses data from Hou et al (2024) to denote which reviews were deleted by Amazon at some point between 2020 and 2023. This can either contribute to ground truth labeling of reviews or can be used to compare proposed classification methods to Amazon’s internal practices.
 
 These variables can be combined to construct a ground truth labeling of reviews as real/fake for model training or feature comparisons. For example, a review may be labeled “fake” if it is a 5-star review of a fake review purchasing product written by a fake reviewer. Stricter criteria could also be applied, using the date or "deleted by Amazon" variable. Reviews may be labeled as “real” if they are non-5-star reviews, or are written by non-fake reviewers, or are posted on non-fake review products. Additional criteria can be applied or these can be combined to form a stricter set of “real” reviews for comparisons. 
+
+****UPDATE MARCH 2026*****
+The data has been updated:
+1) to reflect that the Deleted_by_amazon variable is not reliably measured after June 15 2020 when the last main data scrape took place. The values for reviews after this date should have been missing but were incorrectly coded as 0 in the previous version of the data.
+2) to remove roughly 75,000 reviews with missing labels and review_ids.
 
 If using these data, please consider citing some or all of the following, as relevant:
 
